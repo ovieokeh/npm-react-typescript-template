@@ -4,6 +4,7 @@ A template for publishing a React + TypeScript package to npm
 
 ## How to use
 
+Fork this repo, clone it to your local computer, and edit the `package.json` along with every other required file to match your project.
 Write the code for your package in TypeScript, compile it, and publish it to [npm](https://npmjs.com).
 
 To compile your code once, run
