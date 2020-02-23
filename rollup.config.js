@@ -1,5 +1,3 @@
-import commonjs from '@rollup/plugin-commonjs'
-import resolve from '@rollup/plugin-node-resolve'
 import sass from 'rollup-plugin-sass'
 import typescript from 'rollup-plugin-typescript2'
 
@@ -16,15 +14,6 @@ export default {
       strict: false
     }
   ],
-  plugins: [
-    sass({
-      insert: true
-    }),
-    resolve(),
-    typescript({
-      objectHashIgnoreUnknownHack: true
-    }),
-    commonjs()
-  ],
+  plugins: [sass({ insert: true }), typescript()],
   external: ['react', 'react-dom']
 }

@@ -1,5 +1,5 @@
 import * as React from 'react'
-import './styles.css'
+import './styles.scss'
 
 const Package: React.FC = () => (
   <div className="package">

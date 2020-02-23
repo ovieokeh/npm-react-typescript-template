@@ -4,10 +4,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
 
-.package > h2 {
-  color: #333;
-  font-size: 2.5em;
-  font-family: 'Lucida Sans', sans-serif;
+  & > h2 {
+    color: #333;
+    font-size: 2.5em;
+    font-family: 'Lucida Sans', sans-serif;
+  }
 }
